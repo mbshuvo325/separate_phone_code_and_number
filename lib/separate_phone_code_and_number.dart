@@ -475,6 +475,342 @@ Separator separatePhoneCodeAndNumber(String completePhoneNumber) {
       countryName: countries[58]['name'],
       flag: countries[58]['flag'],
     );
+  }else if(completePhoneNumber.startsWith("+253")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[59]['dial_code'],
+      countryCode: countries[59]['code'],
+      countryName: countries[59]['name'],
+      flag: countries[59]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+1767")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(5),
+      dialCode: countries[60]['dial_code'],
+      countryCode: countries[60]['code'],
+      countryName: countries[60]['name'],
+      flag: countries[60]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+1")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(2),
+      dialCode: countries[61]['dial_code'],
+      countryCode: countries[61]['code'],
+      countryName: countries[61]['name'],
+      flag: countries[61]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+593")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[62]['dial_code'],
+      countryCode: countries[62]['code'],
+      countryName: countries[62]['name'],
+      flag: countries[62]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+20")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(3),
+      dialCode: countries[63]['dial_code'],
+      countryCode: countries[63]['code'],
+      countryName: countries[63]['name'],
+      flag: countries[63]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+503")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[64]['dial_code'],
+      countryCode: countries[64]['code'],
+      countryName: countries[64]['name'],
+      flag: countries[64]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+240")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[65]['dial_code'],
+      countryCode: countries[65]['code'],
+      countryName: countries[65]['name'],
+      flag: countries[65]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+291")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[66]['dial_code'],
+      countryCode: countries[66]['code'],
+      countryName: countries[66]['name'],
+      flag: countries[66]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+372")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[67]['dial_code'],
+      countryCode: countries[67]['code'],
+      countryName: countries[67]['name'],
+      flag: countries[67]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+251")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[68]['dial_code'],
+      countryCode: countries[68]['code'],
+      countryName: countries[68]['name'],
+      flag: countries[68]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+500")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[69]['dial_code'],
+      countryCode: countries[69]['code'],
+      countryName: countries[69]['name'],
+      flag: countries[69]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+298")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[70]['dial_code'],
+      countryCode: countries[70]['code'],
+      countryName: countries[70]['name'],
+      flag: countries[70]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+679")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[71]['dial_code'],
+      countryCode: countries[71]['code'],
+      countryName: countries[71]['name'],
+      flag: countries[71]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+358")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[72]['dial_code'],
+      countryCode: countries[72]['code'],
+      countryName: countries[72]['name'],
+      flag: countries[72]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+33")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(3),
+      dialCode: countries[73]['dial_code'],
+      countryCode: countries[73]['code'],
+      countryName: countries[73]['name'],
+      flag: countries[73]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+594")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[74]['dial_code'],
+      countryCode: countries[74]['code'],
+      countryName: countries[74]['name'],
+      flag: countries[74]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+689")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[75]['dial_code'],
+      countryCode: countries[75]['code'],
+      countryName: countries[75]['name'],
+      flag: countries[75]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+262")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[76]['dial_code'],
+      countryCode: countries[76]['code'],
+      countryName: countries[76]['name'],
+      flag: countries[76]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+241")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[77]['dial_code'],
+      countryCode: countries[77]['code'],
+      countryName: countries[77]['name'],
+      flag: countries[77]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+220")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[78]['dial_code'],
+      countryCode: countries[78]['code'],
+      countryName: countries[78]['name'],
+      flag: countries[78]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+995")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[79]['dial_code'],
+      countryCode: countries[79]['code'],
+      countryName: countries[79]['name'],
+      flag: countries[79]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+49")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(3),
+      dialCode: countries[80]['dial_code'],
+      countryCode: countries[80]['code'],
+      countryName: countries[80]['name'],
+      flag: countries[80]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+233")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[81]['dial_code'],
+      countryCode: countries[81]['code'],
+      countryName: countries[81]['name'],
+      flag: countries[81]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+350")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[82]['dial_code'],
+      countryCode: countries[82]['code'],
+      countryName: countries[82]['name'],
+      flag: countries[82]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+30")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(3),
+      dialCode: countries[83]['dial_code'],
+      countryCode: countries[83]['code'],
+      countryName: countries[83]['name'],
+      flag: countries[83]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+299")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[84]['dial_code'],
+      countryCode: countries[84]['code'],
+      countryName: countries[84]['name'],
+      flag: countries[84]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+1473")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(5),
+      dialCode: countries[85]['dial_code'],
+      countryCode: countries[85]['code'],
+      countryName: countries[85]['name'],
+      flag: countries[85]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+590")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[86]['dial_code'],
+      countryCode: countries[86]['code'],
+      countryName: countries[86]['name'],
+      flag: countries[86]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+1671")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(5),
+      dialCode: countries[87]['dial_code'],
+      countryCode: countries[87]['code'],
+      countryName: countries[87]['name'],
+      flag: countries[87]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+502")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[88]['dial_code'],
+      countryCode: countries[88]['code'],
+      countryName: countries[88]['name'],
+      flag: countries[88]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+44")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(3),
+      dialCode: countries[89]['dial_code'],
+      countryCode: countries[89]['code'],
+      countryName: countries[89]['name'],
+      flag: countries[89]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+224")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[90]['dial_code'],
+      countryCode: countries[90]['code'],
+      countryName: countries[90]['name'],
+      flag: countries[90]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+245")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[91]['dial_code'],
+      countryCode: countries[91]['code'],
+      countryName: countries[91]['name'],
+      flag: countries[91]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+592")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[92]['dial_code'],
+      countryCode: countries[92]['code'],
+      countryName: countries[92]['name'],
+      flag: countries[92]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+509")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[93]['dial_code'],
+      countryCode: countries[93]['code'],
+      countryName: countries[93]['name'],
+      flag: countries[93]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+0")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(2),
+      dialCode: countries[94]['dial_code'],
+      countryCode: countries[94]['code'],
+      countryName: countries[94]['name'],
+      flag: countries[94]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+379")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[95]['dial_code'],
+      countryCode: countries[95]['code'],
+      countryName: countries[95]['name'],
+      flag: countries[95]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+504")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[96]['dial_code'],
+      countryCode: countries[96]['code'],
+      countryName: countries[96]['name'],
+      flag: countries[96]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+852")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[97]['dial_code'],
+      countryCode: countries[97]['code'],
+      countryName: countries[97]['name'],
+      flag: countries[97]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+36")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(3),
+      dialCode: countries[98]['dial_code'],
+      countryCode: countries[98]['code'],
+      countryName: countries[98]['name'],
+      flag: countries[98]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+354")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(4),
+      dialCode: countries[99]['dial_code'],
+      countryCode: countries[99]['code'],
+      countryName: countries[99]['name'],
+      flag: countries[99]['flag'],
+    );
+  }else if(completePhoneNumber.startsWith("+91")) {
+    return Separator(
+      phoneNumber: completePhoneNumber.substring(3),
+      dialCode: countries[100]['dial_code'],
+      countryCode: countries[100]['code'],
+      countryName: countries[100]['name'],
+      flag: countries[100]['flag'],
+    );
   }
   return Separator();
 }
