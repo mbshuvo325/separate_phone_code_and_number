@@ -3,7 +3,8 @@ import 'package:separate_phone_code_and_number/separate.dart';
 import 'countries.dart';
 
 Separator separatePhoneCodeAndNumber(String completePhoneNumber) {
-  if(completePhoneNumber.startsWith("+93")){
+  completePhoneNumber = completePhoneNumber.replaceAll(" ", "").replaceAll("-", "");
+  if(completePhoneNumber.substring(0,3) == "+93"){
     return Separator(
       phoneNumber: completePhoneNumber.substring(3),
       dialCode: countries[0]['dial_code'],
@@ -11,7 +12,7 @@ Separator separatePhoneCodeAndNumber(String completePhoneNumber) {
       countryName: countries[0]['name'],
       flag: countries[0]['flag'],
     );
-  }else if(completePhoneNumber.startsWith("+358")){
+  }else if(completePhoneNumber.substring(0,4) == "+358"){
     return Separator(
       phoneNumber: completePhoneNumber.substring(4),
       dialCode: countries[1]['dial_code'],
@@ -19,15 +20,15 @@ Separator separatePhoneCodeAndNumber(String completePhoneNumber) {
       countryName: countries[1]['name'],
       flag: countries[1]['flag'],
     );
-  }else if(completePhoneNumber.startsWith("+355")) {
+  }else if(completePhoneNumber.substring(0,4) == "+355") {
     return Separator(
-      phoneNumber: completePhoneNumber.substring(4),
+      phoneNumber:completePhoneNumber.substring(4),
       dialCode: countries[2]['dial_code'],
       countryCode: countries[2]['code'],
       countryName: countries[2]['name'],
       flag: countries[2]['flag'],
     );
-  }else if(completePhoneNumber.startsWith("+213")) {
+  }else if(completePhoneNumber.substring(0,4) == "+213") {
     return Separator(
       phoneNumber: completePhoneNumber.substring(4),
       dialCode: countries[3]['dial_code'],
@@ -35,7 +36,7 @@ Separator separatePhoneCodeAndNumber(String completePhoneNumber) {
       countryName: countries[3]['name'],
       flag: countries[3]['flag'],
     );
-  }else if(completePhoneNumber.startsWith("+1684")) {
+  }else if(completePhoneNumber.substring(0,5) == "+1684") {
     return Separator(
       phoneNumber: completePhoneNumber.substring(5),
       dialCode: countries[4]['dial_code'],
